@@ -1,0 +1,15 @@
+---- Exit_network_controlflag Matches (14 in 3 files) ----
+HC-MCU-XBR.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):	 volatile u8 idata Exit_network_controlflag = 0;
+HC-MCU-XBR.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):					if(Exit_network_controlflag==0)
+HC-MCU-XBR.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):					if(Exit_network_controlflag==0)
+HC-MCU-XBR.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):	if(Exit_network_controlflag==1)
+HC-MCU-XBR.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):						Exit_network_controlflag  = 0;
+HC-MCU-XBR.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):			//Exit_network_controlflag = 1;
+HC-MCU-XBR.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):								if(Exit_network_controlflag==0)
+HC-MCU-XBR.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):						if(Exit_network_controlflag==0)
+HC-MCU-XBR.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):				if(Exit_network_controlflag==0)
+HC-MCU-XBR.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):				if(Exit_network_controlflag==0)
+Protocol.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):extern   volatile u8 idata Exit_network_controlflag;
+Protocol.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):										Exit_network_controlflag = 1;
+System.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):extern u8 idata Exit_network_controlflag ;
+System.c (e:\wuxzn\leida\project\projectwitchble\tcl公版界面2\user):		Exit_network_controlflag = 1;
